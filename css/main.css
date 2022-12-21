@@ -67,3 +67,158 @@ body {
 .product_new .product_title {
   font-family: "Poppins", sans-serif;
 }
+
+/* 헤더 */
+.visual {
+}
+
+.visual .center_box {
+  height: 728px;
+  background-image: url("../images/main_visual.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+  position: relative;
+}
+
+.visual .center_box .details {
+  position: absolute;
+  top: 364px;
+  left: 20px;
+}
+
+.visual .center_box .details h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.visual .center_box .details p {
+  padding-top: 15px;
+  padding-bottom: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.visual .center_box .details button {
+  width: 256px;
+  height: 64px;
+  border: none;
+  background-color: #111;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.product_01 {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.product_01 li {
+  width: 632px;
+  height: 642px;
+  background-color: #111;
+  position: relative;
+}
+
+.product_01 li h2 {
+  font-size: 40px;
+  font-weight: 800;
+  position: absolute;
+  top: 51px;
+  left: 48px;
+}
+
+.product_01 li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  position: absolute;
+  top: 560px;
+  left: 48px;
+}
+
+.product_new {
+  padding-top: 130px;
+}
+
+.product_new ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_new ul li .name {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.product_new ul li .cost {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.product_new .title {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 26px;
+}
+
+/* 프로덕트 탑 */
+.product_top {
+  padding-top: 130px;
+}
+
+.product_top ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_top ul li .name {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.product_top ul li .cost {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.product_top .title {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 26px;
+}
+
+/* 인포스 */
+.infos {
+  height: 535px;
+  position: relative;
+}
+
+.infos .text {
+  position: absolute;
+  top: 220px;
+  left: 530px;
+}
+
+.infos .text h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.infos .text p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 28px;
+  font-family: "Poppins", sans-serif;
+}
+
+.infos .text button {
+  width: 254px;
+  height: 64px;
+  background-color: #fff;
+}
+
+/* 바텀 */
