@@ -193,32 +193,93 @@ body {
 
 /* 인포스 */
 .infos {
-  height: 535px;
+  height: 612px;
   position: relative;
 }
 
-.infos .text {
+.infos .content {
   position: absolute;
   top: 220px;
   left: 530px;
 }
 
-.infos .text h2 {
+.infos .content h2 {
   font-size: 40px;
   font-weight: 800;
 }
 
-.infos .text p {
+.infos .content p {
   font-size: 18px;
   line-height: 28px;
   margin-bottom: 28px;
   font-family: "Poppins", sans-serif;
 }
 
-.infos .text button {
+.infos .content button {
   width: 254px;
   height: 64px;
   background-color: #fff;
+  cursor: pointer;
 }
 
 /* 바텀 */
+.footer {
+  height: 394px;
+  background-color: #111;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.footer .center_box {
+  position: relative;
+}
+
+.overview {
+  display: flex;
+  justify-content: space-between;
+}
+
+.overview .footer_menu {
+  font-family: "Poppins", sans-serif;
+}
+
+.footer_menu .contents {
+  display: flex;
+}
+
+.overview .footer_menu .contents .menu_title {
+  font-size: 12px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.overview .footer_menu .menu_family {
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.footer .line {
+  margin-right: 114px;
+  margin-top: 116px;
+}
+
+.footer .footer_contents {
+  margin-top: 116px;
+  width: 200px;
+}
+
+.footer .footer_contents .social_icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footer_contents p {
+  margin-bottom: 20px;
+}
+
+.footer .copyright {
+  position: absolute;
+  top: 350px;
+  left: 0;
+}
