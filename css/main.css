@@ -146,7 +146,6 @@ body {
   display: flex;
   justify-content: space-between;
   position: relative;
-  padding-bottom: 63px;
 }
 
 .product_new ul::after {
@@ -157,6 +156,27 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.product_new ul li {
+  padding-bottom: 63px;
+  position: relative;
+}
+
+.product_new ul li a {
+  display: inline-block;
+}
+
+.product_new ul li:hover::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 7px;
+  background-color: #111;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s;
+  z-index: 1;
 }
 
 .product_new ul li .name {
@@ -184,6 +204,34 @@ body {
 .product_top ul {
   display: flex;
   justify-content: space-between;
+  position: relative;
+}
+
+.product_top ul::after {
+  width: 100%;
+  height: 7px;
+  background-color: #c4c4c4;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.product_top ul li {
+  padding-bottom: 70px;
+  position: relative;
+}
+
+.product_top ul li:hover::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 7px;
+  background-color: #111;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s;
+  z-index: 1;
 }
 
 .product_top ul li .name {
@@ -205,14 +253,14 @@ body {
 
 /* 인포스 */
 .infos {
-  height: 612px;
+  height: 538px;
   position: relative;
 }
 
 .infos .content {
   position: absolute;
-  top: 220px;
-  left: 530px;
+  top: 149px;
+  left: 510px;
 }
 
 .infos .content h2 {
