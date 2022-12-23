@@ -67,101 +67,157 @@ body {
 .product_new .product_title {
   font-family: "Poppins", sans-serif;
 }
-
-/* 헤더 */
-.visual {
+/* 메인 상품 */
+.product {
+  margin-top: 126px;
+  margin-bottom: 132px;
+  height: 632px;
 }
 
-.visual .center_box {
-  height: 728px;
-  background-image: url("../images/main_visual.png");
-  background-repeat: no-repeat;
-  background-position: center right;
+.product .main_product {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product .main_product .photo {
+  width: 632px;
+  height: 632px;
+  background-color: #e1e1e1;
   position: relative;
 }
 
-.visual .center_box .details {
+.product .main_product .photo .shoes_cut {
   position: absolute;
-  top: 364px;
+  top: 316px;
+  left: 316px;
+  transform: translate(-50%, -50%);
+}
+
+.product .main_product .photo .buttons {
+  position: absolute;
+  top: 540px;
+  left: 460px;
+}
+
+.product .main_product .product_detail {
+  width: 532px;
+  height: 626px;
+}
+
+.product .product_detail .tag {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 6px;
+}
+
+.product .product_detail h2 {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 6px;
+}
+
+.product .product_detail h3 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.product .size {
+  width: 532px;
+  height: 635px;
+}
+
+.product .size .text {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 28px;
+  padding-top: 36px;
+  font-family: "Poppins", sans-serif;
+}
+
+.product .size .text .select {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.product .size .text .guide {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+.product .size .size_display {
+  flex-wrap: wrap;
+}
+
+.product .size .size_display li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product .size .size_display .pa {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.product .size .size_display button {
+  width: 92px;
+  height: 92px;
+  background-color: #fff;
+}
+
+.product .size .btn {
+  padding-top: 28px;
+}
+
+.product .size .add {
+  width: 532px;
+  height: 64px;
+  background-color: #111;
+  color: #fff;
+}
+/* 메인 상품 끝 */
+
+/* 상품 상세소개 */
+.about {
+  height: 544px;
+  position: relative;
+}
+
+.about .text {
+  position: absolute;
+  top: 188px;
   left: 20px;
 }
 
-.visual .center_box .details h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 60px;
-  font-weight: 800;
-}
-
-.visual .center_box .details p {
-  padding-top: 15px;
-  padding-bottom: 18px;
-  font-family: "Poppins", sans-serif;
-}
-
-.visual .center_box .details button {
-  width: 256px;
-  height: 64px;
-  border: none;
-  background-color: #111;
-  color: #fff;
-  font-size: 18px;
-  font-family: "Poppins", sans-serif;
-  cursor: pointer;
-}
-
-.product_01 {
-  display: flex;
-  justify-content: space-between;
-  color: #fff;
-}
-
-.product_01 li {
-  width: 632px;
-  height: 642px;
-  background-color: #111;
-  position: relative;
-}
-
-.product_01 li h2 {
+.about .text h2 {
   font-size: 40px;
   font-weight: 800;
-  position: absolute;
-  top: 51px;
-  left: 48px;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 28px;
+  line-height: 1;
 }
 
-.product_01 li a {
+.about .text p {
   font-family: "Poppins", sans-serif;
-  font-size: 30px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.about .photo {
   position: absolute;
-  top: 560px;
-  left: 48px;
-}
-
-.product_new {
-  padding-top: 130px;
-}
-
-.product_new ul {
+  top: 0;
+  left: 440px;
+  width: 858px;
+  height: 554px;
   display: flex;
   justify-content: space-between;
 }
 
-.product_new ul li .name {
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.product_new ul li .cost {
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.product_new .title h2 {
-  font-size: 30px;
-  font-weight: 800;
-  margin-bottom: 26px;
+.about .photo img {
+  width: 414px;
+  height: 556px;
+  background-color: #e1e1e1;
 }
 
 /* 프로덕트 탑 */
@@ -191,37 +247,6 @@ body {
   margin-bottom: 26px;
 }
 
-/* 인포스 */
-.infos {
-  height: 612px;
-  position: relative;
-}
-
-.infos .content {
-  position: absolute;
-  top: 220px;
-  left: 530px;
-}
-
-.infos .content h2 {
-  font-size: 40px;
-  font-weight: 800;
-}
-
-.infos .content p {
-  font-size: 18px;
-  line-height: 28px;
-  margin-bottom: 28px;
-  font-family: "Poppins", sans-serif;
-}
-
-.infos .content button {
-  width: 254px;
-  height: 64px;
-  background-color: #fff;
-  cursor: pointer;
-}
-
 /* 바텀 */
 .footer {
   height: 394px;
@@ -229,6 +254,7 @@ body {
   color: #fff;
   font-family: "Poppins", sans-serif;
   position: relative;
+  margin-top: 223px;
 }
 
 .footer .center_box {
