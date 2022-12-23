@@ -148,22 +148,24 @@ body {
 
 .product .size .size_display {
   flex-wrap: wrap;
-}
-
-.product .size .size_display li {
   display: flex;
+  gap: 18px;
   justify-content: space-between;
 }
 
-.product .size .size_display .pa {
-  padding-top: 18px;
-  padding-bottom: 18px;
-}
-
-.product .size .size_display button {
+.product .size .size_display li {
   width: 92px;
   height: 92px;
-  background-color: #fff;
+  border: 1px solid #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product .size .size_display li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .product .size .btn {
